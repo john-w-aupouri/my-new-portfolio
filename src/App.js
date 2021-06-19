@@ -1,8 +1,12 @@
-import logo from './logo.svg';
+import Hero from './components/Hero';
 import './App.css';
 
 function App() {
-  return <div className='App'></div>;
+  return (
+    <div className='App'>
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
