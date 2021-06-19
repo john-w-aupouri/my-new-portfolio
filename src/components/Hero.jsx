@@ -1,7 +1,3 @@
-const Hero = () => (
-  <section className='hero-container'>
-    <h1>Kia Ora World</h1>
-  </section>
-);
+const Hero = () => <section className='hero-container'></section>;
 
 export default Hero;
