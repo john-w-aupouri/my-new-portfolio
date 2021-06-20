@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 import {
   HeroContainer,
-  HeroBg,
   HeroContent,
   HeroH1,
   HeroP,
@@ -30,7 +29,7 @@ const Hero = () => {
             primary='true'
             dark='true'
             big='true'>
-            Let's Talk {hover ? <ArrowForward /> : <ArrowRight />}
+            Projects {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

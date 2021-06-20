@@ -1,14 +1,11 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import './App.css';
 import GlobalStyle from './components/globalStyles';
+import Home from './pages';
 
 function App() {
   return (
     <div className='App'>
       <GlobalStyle />
-      <Navbar />
-      <Hero />
+      <Home />
     </div>
   );
 }
