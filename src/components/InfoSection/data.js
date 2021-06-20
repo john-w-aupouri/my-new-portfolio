@@ -1,4 +1,4 @@
-import img from '../../images/meOnPurpleCircle.png';
+import img from '../../images/meOnGreen.png';
 
 export const homeObjOne = {
   id: 'about',
