@@ -1,3 +1,5 @@
+import img from '../../images/meOnPurpleCircle.png';
+
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
@@ -9,7 +11,7 @@ export const homeObjOne = {
     "My name is John Aupouri and I'm a full-stack web developer and digital designer.",
   buttonLabel: 'Download C.V',
   imgStart: true,
-  img: require('../../images/meOnPurpleCircle.png'),
+  img: img,
   alt: 'Credit card',
   dark: true,
   primary: true,
